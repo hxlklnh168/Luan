@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-
+export const config = { matcher: [] };
 import { NextRequest, NextResponse } from 'next/server';
 
 import { getAuthInfoFromCookie } from '@/lib/auth';
